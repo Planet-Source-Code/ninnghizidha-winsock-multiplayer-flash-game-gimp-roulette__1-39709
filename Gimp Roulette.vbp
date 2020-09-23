@@ -1,0 +1,50 @@
+Type=Exe
+Reference=*\G{00020430-0000-0000-C000-000000000046}#2.0#0#..\..\..\..\..\WINDOWS\System32\Stdole2.tlb#OLE Automation
+Object={248DD890-BB45-11CF-9ABC-0080C7E7B78D}#1.0#0; mswinsck.ocx
+Object={D27CDB6B-AE6D-11CF-96B8-444553540000}#1.0#0; Flash.ocx
+Form=frmMain.frm
+Form=frmStart.frm
+Module=modGame; modGame.bas
+Module=modWinSock; modDataTrans.bas
+Module=modFunctions; modfunctions.bas
+Object={BDC217C8-ED16-11CD-956C-0000C04E4C0A}#1.1#0; TABCTL32.OCX
+IconForm="frmMain"
+Startup="frmStart"
+HelpFile=""
+Title="GimpGame"
+ExeName32="gimpGame.exe"
+Command32=""
+Name="GimpRoulette"
+HelpContextID="0"
+Description="GimpGame"
+CompatibleMode="0"
+MajorVer=1
+MinorVer=1
+RevisionVer=109
+AutoIncrementVer=1
+ServerSupportFiles=0
+VersionCompanyName="sperlhofer.com"
+VersionFileDescription="2 Player Gimp-Roulette"
+VersionLegalCopyright="Ninnghizidha"
+CompilationType=0
+OptimizationType=0
+FavorPentiumPro(tm)=0
+CodeViewDebugInfo=0
+NoAliasing=0
+BoundsCheck=0
+OverflowCheck=0
+FlPointCheck=0
+FDIVCheck=0
+UnroundedFP=0
+StartMode=0
+Unattended=0
+Retained=0
+ThreadPerObject=0
+MaxNumberOfThreads=1
+DebugStartupOption=0
+
+[MS Transaction Server]
+AutoRefresh=1
+
+[AppForge Global]
+MODID=7E0884ED-19B4-4E8A-AEFA-49334A12BB2B
